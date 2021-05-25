@@ -116,7 +116,7 @@ Wikipedia: [ ссылка на датасет на github](https://github.com/ds
 
 Данные официальной статистики: [ссылка на датасет на github](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/raw_data/target.xlsx)
 
-Ссылки на ноутбуки сбора данных прилагаются.
+Ссылки на ноутбуки сбора данных [прилагаются](#приложения).
 
 
 ### Обработка собранных данных:
