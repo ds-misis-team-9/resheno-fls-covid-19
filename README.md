@@ -45,7 +45,7 @@ First Line Software
 
 ### Планируемые результаты:
 
-* Исходный код в виде [репозитория на GitHub.](https://github.com/moisandrei/09_resheno)
+* Исходный код в виде [данного github репозитория](https://github.com/ds-misis-team-9/resheno-fls-covid-19)
 * Презентация и аналитическая записка с описанием процесса сбора, обработки данных и результатов анализа.
 
 ### Критерии оценки результата:
@@ -108,26 +108,26 @@ First Line Software
 
 ### Итоговые датасеты по выбранным источникам:
 
-Google:[ ссылка на датасет на github](https://github.com/moisandrei/09_resheno/blob/main/russia/raw_data/google.xlsx)
+Google:[ ссылка на датасет на github](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/raw_data/google.xlsx)
 
-Yandex:  [ссылка на датасет на github](https://github.com/moisandrei/09_resheno/blob/main/russia/raw_data/yandex.xlsx)
+Yandex:  [ссылка на датасет на github](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/raw_data/yandex.xlsx)
 
-Wikipedia: [ ссылка на датасет на github](https://github.com/moisandrei/09_resheno/blob/main/russia/raw_data/wiki.csv) 
+Wikipedia: [ ссылка на датасет на github](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/raw_data/wiki.csv) 
 
-Данные официальной статистики: [ссылка на датасет на github](https://github.com/moisandrei/09_resheno/blob/main/russia/raw_data/target.xlsx)
+Данные официальной статистики: [ссылка на датасет на github](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/raw_data/target.xlsx)
 
 Ссылки на ноутбуки сбора данных прилагаются.
 
 
 ### Обработка собранных данных:
 
-Для обработки собранных данных, а также добавления в них целевой переменной  был создан [отдельный блокнот](https://github.com/moisandrei/09_resheno/blob/main/russia/processing_data.ipynb), в котором отбирались признаки и строилась матрица корреляции по каждому источнику.
+Для обработки собранных данных, а также добавления в них целевой переменной  был создан [отдельный блокнот](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/processing_data.ipynb), в котором отбирались признаки и строилась матрица корреляции по каждому источнику.
 
 _Пример: матрица корреляции после отбора признаков у google (критерий отбора - корреляция с целевой переменной больше 0.7)_
 
 ![alt_text](images/image1.png "image_tooltip")
 
-В дальнейшем из отобранных признаков по 3м источникам был составлен 1 итоговый [датасет](https://github.com/moisandrei/09_resheno/blob/main/russia/processed_data/3_source.xlsx).
+В дальнейшем из отобранных признаков по 3м источникам был составлен 1 итоговый [датасет](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/processed_data/3_source.xlsx).
 
 
 ### Нормализация данных
@@ -362,7 +362,7 @@ Non-trainable params: 0
 
 Продолжением данной работы может стать исследование по проверки / оценки точности официальной статистики на основе других косвенных данных.
 
-Исходный код и описание решения представлен на странице [GitHub](https://github.com/moisandrei/09_resheno).
+Исходный код и описание решения представлены в данном [GitHub](https://github.com/ds-misis-team-9/resheno-fls-covid-19) репозитории.
 
 
 ## Приложения
@@ -375,6 +375,6 @@ Non-trainable params: 0
 
 Выбранные решения для сбора и анализа данных
 
-1. [Сбор данных](https://github.com/moisandrei/09_resheno/blob/main/russia/gathering_data.ipynb)
-2. [Анализ данных](https://github.com/moisandrei/09_resheno/blob/main/russia/processing_data.ipynb)
-3. [Аналитические модели](https://github.com/moisandrei/09_resheno/blob/main/russia/analysis.ipynb)
+1. [Сбор данных](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/gathering_data.ipynb)
+2. [Анализ данных](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/processing_data.ipynb)
+3. [Аналитические модели](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/analysis.ipynb)
