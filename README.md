@@ -139,7 +139,7 @@ Wikipedia: [ ссылка на датасет на github](https://github.com/ds
 
 Данные официальной статистики: [ссылка на датасет на github](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/raw_data/target.xlsx)
 
-Ссылки на ноутбуки сбора данных [прилагаются](#приложения).
+Ссылки на ноутбуки сбора данных [прилагаются](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/gathering_data.ipynb).
 
 
 ### Обработка собранных данных:
@@ -256,7 +256,7 @@ Non-trainable params: 0
 
 Выбранные решения в части сбора и анализа данных были оформлены в виде отдельных ноутбуков, позволяющих в дальнейшем развить решение и автоматизировать весь процесс.
 
-Ссылки на ноутбуки [прилагается](#приложения)
+Ссылки на ноутбуки [прилагается](https://github.com/ds-misis-team-9/resheno-fls-covid-19/blob/main/russia/processing_data.ipynb)
 
 
 ### Проверка полученного подхода к анализу данных
